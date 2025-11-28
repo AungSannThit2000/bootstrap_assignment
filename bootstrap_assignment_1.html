@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Table with 2 Column Layout</title>
     <meta charset="utf-8" />
+    <title>Bootstrap Exercise 2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link
@@ -17,63 +17,81 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
-
-    <style>
-      h2 {
-        margin-bottom: 20px;
-      }
-    </style>
   </head>
+  <body class="p-4">
+    <div class="container">
+      <h2 class="fw-bold mb-4">Bootstrap Exercise 2</h2>
 
-  <body>
-    <h2>Table with 2 Column Layout</h2>
-
-    <div class="container-fluid">
       <div class="row">
-        <!-- Left Column: Table -->
-        <div class="col-md-6">
-          <table class="table">
-            <tr>
-              <th>Name</th>
-              <th>Price</th>
-            </tr>
-            <tr>
-              <td>Laptop</td>
-              <td>$999.99</td>
-            </tr>
-            <tr>
-              <td>Smartphone</td>
-              <td>$699.99</td>l
-            </tr>
-            <tr>
-              <td>Headphones</td>
-              <td>$129.99</td>
-            </tr>
-            <tr>
-              <td>Keyboard</td>
-              <td>$79.99</td>
-            </tr>
-            <tr>
-              <td>Mouse</td>
-              <td>$49.99</td>
-            </tr>
+        <div class="col-md-6 mb-4 mb-md-0">
+          <table class="table table-striped">
+            <thead class="table-primary">
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Laptop</td>
+                <td>$999.99</td>
+              </tr>
+              <tr>
+                <td>Smartphone</td>
+                <td>$699.99</td>
+              </tr>
+              <tr>
+                <td>Headphones</td>
+                <td>$129.99</td>
+              </tr>
+              <tr>
+                <td>Keyboard</td>
+                <td>$79.99</td>
+              </tr>
+              <tr>
+                <td>Mouse</td>
+                <td>$49.99</td>
+              </tr>
+            </tbody>
           </table>
         </div>
-
-        <!-- Right Column: Summary -->
         <div class="col-md-6">
-          <div class="fs-3 fw-bold">Item Summary</div>
-          <div class="fs-5">
+          <h3 class="fw-bold">Item Summary</h3>
+          <p class="mb-0">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat. Duis aute irure dolor in
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-            qui officia deserunt mollit anim id est laborum.
-          </div>
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
       </div>
+
+      <div class="mt-5">
+        <h3 class="fw-bold">About Us</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
     </div>
+
+   
   </body>
 </html>
